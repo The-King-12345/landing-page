@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+  <div class="hero">
+    <div class="hero__header">
+      <h2 class="hero__header__logo">Logo</h2>
+      <ul class="hero__header__list">
+        <li class="hero__header__list__item">
+          <a class="hero__header__list__item__link">Info</a>
+        </li>
+        <li class="hero__header__list__item">
+          <a class="hero__header__list__item__link">Help</a>
+        </li>
+        <li class="hero__header__list__item">
+          <a class="hero__header__list__item__link">Our Mission</a>
+        </li>
+      </ul>
+    </div>
+    <div class="hero__card">
+      <div class="hero__card__info">
+        <h1 class="hero__card__info__heading">Chameleons</h1>
+        <p class="hero__card__info__text">Chameleons or chamaeleons (family Chamaeleonidae) are a distinctive and highly specialized clade of Old World lizards with 200 species described as of June 2015. The members of this family are best known for their distinct range of colors, being capable of shifting to different hues and degrees of brightness</p>
+        <button class="hero__card__info__button">Learn More</button>
+      </div>
+      <div class="hero__card__img"><img src="./images/chameleon.jpg" alt="Chameleon Image"></div>
+    </div>
+  </div>
+  <div class="info">
+    <h2 class="info__heading">Some random information.</h2>
+    <div class="info__container">
+      <div class="info__container__card">
+        <img class="info__container__card__img" src="./images/chameleon--colors.png">
+        <p class="info__container__card__text">Cameleons and change colors</p>
+      </div>
+      <div class="info__container__card">
+        <img class="info__container__card__img" src="./images/chameleon--camo.png">
+        <p class="info__container__card__text">Can you even see anything there?</p>
+      </div>
+      <div class="info__container__card">
+        <img class="info__container__card__img" src="./images/chameleon--tongue.png">
+        <p class="info__container__card__text">Cameleons have long tongues</p>
+      </div>
+      <div class="info__container__card">
+        <img class="info__container__card__img" src="./images/chameleon--chunky.png">
+        <p class="info__container__card__text">They also have large bodies</p>
+      </div>
+    </div>
+  </div>
+  <div class="quote">
+    <div class="quote__container">
+      <p class="quote__container__text">The chameleon changes color to match the earth but the earth does not change color to match the chameleon</p>
+      <p class="quote__container__author">- African Proverb</p>
+    </div>
+  </div>
+  <div class="action">
+    <div class="action__container">
+      <div class="action__container__card">
+        <h2 class="action__container__card__heading">It's time!</h2>
+        <p class="action_-container__card__text">Click this button to learn more about the wonderful world of chameleons!</p>
+      </div>
+      <button class="action__container__button">Learn More</button>
+    </div>
+  </div>
+  <div class="footer">
+    <p class="footer__text">Copyright © Fake Company 2023</p>
+  </div>
 </body>
 </html>
